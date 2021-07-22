@@ -1,0 +1,41 @@
+/* 1 (inline)   توسيط العناصر*/
+/* div{ */
+  /* height: 100px; */
+  /* width: 100px;
+  background-color: #ffff00;
+  margin: 2px auto;
+  
+}
+section{
+
+}
+
+/*inline   single line*/
+/* nav{
+  background-color: #ddd;
+  padding: 10px;
+}
+nav a{
+  background: black;
+  color: white;
+  text-decoration: none;
+  padding: 20px 10px;
+} */ 
+/*inline mulipleline table  vertical-aligen */
+/* div{
+  width: 60%;
+ height: 200px;
+  color: #fff;
+  background: black;
+  display: flex; /* النقطتين اللي تحت بتتحول علي حسب الفيلكس ديركشن الافتراضي row*/
+  /* justify-content: center; /*horizntal*/
+  /* align-items: center;  vertical */
+/* }
+p{
+ width: 250px;
+ height: 50px;
+  padding: 10px;
+  background: #00f;
+ 
+
+}  */ 

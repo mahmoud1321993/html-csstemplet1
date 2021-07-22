@@ -1,0 +1,63 @@
+/*
+-webkit- //chrom
+-moz- //firfox
+-ms- // ie
+-o- // opera
+*/
+.background {height: 100px;
+  width: 100px;
+  background: orangered;
+  background-image: url(../images/background/background2.webp);
+  padding: 20px;
+  border: 5px dotted green;
+  background-size: cover;
+  background-clip:content-box ;
+  background-repeat: no-repeat;
+}
+/*.shado{
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background: #f50;
+    box-shadow: h-shadow v-shadow blur spread color inset;
+}*/
+.shado{
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background: #f50;
+    box-shadow: 5px 5px 5px 3px  #000 inset;
+}
+span{
+    text-shadow: 2px 2px 2px green;
+}
+.gredaint{
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background: #000;
+    background: linear-gradient(to right, red 50%, yellow 40%);
+}
+.gredaint2{
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background: #000;
+    background: radial-gradient(20% 50% , red, yellow, black);
+}
+.d2{
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    background: #000;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: scale(2,2)
+   
+}
+
+.d2:hover{
+    transform: scale(1,1)
+}
